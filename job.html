@@ -1,0 +1,85 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="form-box">
+        <h1>Job Application Form</h1>
+        <p>Fill out the form below to apply.</p>
+
+        <form action="#" method="post">
+
+            <div class="row">
+                <div class="input-box">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Enter first name" required>
+                </div>
+
+                <div class="input-box">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter last name" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="email" placeholder="example@email.com" required>
+            </div>
+
+            <div class="input-box">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="+91 9876543210" required>
+            </div>
+
+            <div class="input-box">
+                <label>Position Applying For</label>
+                <select required>
+                    <option value="">Select Position</option>
+                    <option>Web Developer</option>
+                    <option>UI/UX Designer</option>
+                    <option>Software Engineer</option>
+                    <option>Data Analyst</option>
+                    <option>Digital Marketing</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>Experience</label>
+                <select required>
+                    <option value="">Select Experience</option>
+                    <option>Fresher</option>
+                    <option>1-2 Years</option>
+                    <option>3-5 Years</option>
+                    <option>5+ Years</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>Skills</label>
+                <input type="text" placeholder="HTML, CSS, JavaScript, Python">
+            </div>
+
+            <div class="input-box">
+                <label>Upload Resume</label>
+                <input type="file">
+            </div>
+
+            <div class="input-box">
+                <label>Cover Letter</label>
+                <textarea rows="5" placeholder="Write your cover letter..."></textarea>
+            </div>
+
+            <button type="submit">Submit Application</button>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
